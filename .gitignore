@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Local environment files (never commit real credentials)
+.env
+.env.*
+!.env.example
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.log
+
+# Build / generated
+dist/
+build/
+*.egg-info/
+
+# Local legal-corpus artifacts: PDFs must never be committed. Small JSON
+# records (source/receipt/verification/document/manifest) are committable
+# so deployments can validate and serve the corpus without binaries.
+corpus/**/*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/

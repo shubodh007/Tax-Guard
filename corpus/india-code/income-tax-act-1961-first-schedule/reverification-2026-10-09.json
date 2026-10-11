@@ -1,0 +1,113 @@
+{
+  "assessment": {
+    "check_ids": [
+      "india-code-it-act-1961-first-schedule:applicability:86c3575a49be",
+      "india-code-it-act-1961-first-schedule:completeness:86c3575a49be",
+      "india-code-it-act-1961-first-schedule:integrity:86c3575a49be",
+      "india-code-it-act-1961-first-schedule:record_identity:86c3575a49be",
+      "india-code-it-act-1961-first-schedule:version:86c3575a49be"
+    ],
+    "policy_id": "taxguard-source-policy",
+    "policy_version": "v1",
+    "reason_codes": [
+      "missing:origin",
+      "satisfied:integrity",
+      "satisfied:record_identity"
+    ],
+    "source_id": "india-code-it-act-1961-first-schedule",
+    "status": "incomplete",
+    "verdicts": [
+      {
+        "category": "origin",
+        "verdict": "missing"
+      },
+      {
+        "category": "integrity",
+        "verdict": "satisfied"
+      },
+      {
+        "category": "version",
+        "verdict": "not_required"
+      },
+      {
+        "category": "completeness",
+        "verdict": "not_required"
+      },
+      {
+        "category": "applicability",
+        "verdict": "not_required"
+      },
+      {
+        "category": "record_identity",
+        "verdict": "satisfied"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check_id": "india-code-it-act-1961-first-schedule:integrity:86c3575a49be",
+      "check_type": "integrity",
+      "checked_at": "2026-10-09",
+      "content_hash": "86c3575a49be2d8b77a571556a8ea43e67aae40e8a7f8e7d709d2c2bbe87de09",
+      "description": "compared locally measured bytes, receipt expectations, and the parsed record",
+      "limitations": "content identity only; not proof of official authenticity",
+      "observation": "observed SHA-256 86c3575a49be2d8b77a571556a8ea43e67aae40e8a7f8e7d709d2c2bbe87de09 over 232490 bytes matches the receipt; parsed record india-code-it-act-1961-first-schedule:86c3575a49be2d8b77a571556a8ea43e carries the identical hash",
+      "observation_source": "local",
+      "outcome": "passed",
+      "source_id": "india-code-it-act-1961-first-schedule",
+      "verifier": "taxguard-phase14-reverification"
+    },
+    {
+      "check_id": "india-code-it-act-1961-first-schedule:record_identity:86c3575a49be",
+      "check_type": "record_identity",
+      "checked_at": "2026-10-09",
+      "content_hash": "",
+      "description": "compared official record metadata against the source record",
+      "limitations": "title match corroborates identity, not authenticity or currency",
+      "observation": "official title matches source title at https://indiacode.gov.in/entities/publication/13868f5c-6f46-47ad-b176-3cdcfc1f94c5; parent Act recorded as The Income-tax Act, 1961",
+      "observation_source": "network",
+      "outcome": "passed",
+      "source_id": "india-code-it-act-1961-first-schedule",
+      "verifier": "taxguard-phase14-reverification"
+    },
+    {
+      "check_id": "india-code-it-act-1961-first-schedule:version:86c3575a49be",
+      "check_type": "version",
+      "checked_at": "2026-10-09",
+      "content_hash": "",
+      "description": "checked for an authoritative version, amendment, or effective-period statement",
+      "limitations": "version identity unknown",
+      "observation": "no authoritative version statement supplied",
+      "observation_source": "network",
+      "outcome": "not_checked",
+      "source_id": "india-code-it-act-1961-first-schedule",
+      "verifier": "taxguard-phase14-reverification"
+    },
+    {
+      "check_id": "india-code-it-act-1961-first-schedule:completeness:86c3575a49be",
+      "check_type": "completeness",
+      "checked_at": "2026-10-09",
+      "content_hash": "",
+      "description": "checked whether the acquired material is the complete resource or a fragment",
+      "limitations": "completeness unknown",
+      "observation": "fragment scope not established by supplied evidence",
+      "observation_source": "network",
+      "outcome": "not_checked",
+      "source_id": "india-code-it-act-1961-first-schedule",
+      "verifier": "taxguard-phase14-reverification"
+    },
+    {
+      "check_id": "india-code-it-act-1961-first-schedule:applicability:86c3575a49be",
+      "check_type": "applicability",
+      "checked_at": "2026-10-09",
+      "content_hash": "",
+      "description": "checked for evidence establishing the relevant period and legal applicability",
+      "limitations": "applicability unestablished",
+      "observation": "no legal analysis performed",
+      "observation_source": "network",
+      "outcome": "not_checked",
+      "source_id": "india-code-it-act-1961-first-schedule",
+      "verifier": "taxguard-phase14-reverification"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "assessment": {
+    "check_ids": [
+      "it-act-1961-sch1-integrity-2026-10-09",
+      "it-act-1961-sch1-origin-2026-10-09"
+    ],
+    "policy_id": "taxguard-source-policy",
+    "policy_version": "v1",
+    "reason_codes": [
+      "uncertain:origin",
+      "satisfied:integrity"
+    ],
+    "source_id": "india-code-it-act-1961-first-schedule",
+    "status": "incomplete",
+    "verdicts": [
+      {
+        "category": "origin",
+        "verdict": "uncertain"
+      },
+      {
+        "category": "integrity",
+        "verdict": "satisfied"
+      },
+      {
+        "category": "version",
+        "verdict": "not_required"
+      },
+      {
+        "category": "completeness",
+        "verdict": "not_required"
+      },
+      {
+        "category": "applicability",
+        "verdict": "not_required"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check_id": "it-act-1961-sch1-integrity-2026-10-09",
+      "check_type": "integrity",
+      "checked_at": "",
+      "content_hash": "",
+      "description": "SHA-256 recomputed from stored artifact bytes and compared",
+      "limitations": "content identity only; not proof of official authenticity",
+      "observation": "SHA-256 86c3575a49be2d8b77a571556a8ea43e67aae40e8e7d709d2c2bbe87de09 over 232490 stored bytes matches the receipt",
+      "outcome": "passed",
+      "source_id": "india-code-it-act-1961-first-schedule",
+      "verifier": ""
+    },
+    {
+      "check_id": "it-act-1961-sch1-origin-2026-10-09",
+      "check_type": "origin",
+      "checked_at": "",
+      "content_hash": "",
+      "description": "recorded the serving endpoint of the fetched artifact",
+      "limitations": "retrieval observes provenance; authenticity requires independent checks",
+      "observation": "retrieved over HTTPS from https://indiacode.gov.in/server/api/core/bitstreams/0c9617d8-abe3-4691-9a20-a5b1b595b860/content (HTTP 200); official status not independently established",
+      "outcome": "inconclusive",
+      "source_id": "india-code-it-act-1961-first-schedule",
+      "verifier": ""
+    }
+  ]
+}

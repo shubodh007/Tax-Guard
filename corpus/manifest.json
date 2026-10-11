@@ -1,0 +1,31 @@
+{
+  "entries": [
+    {
+      "artifact_path": "corpus/india-code/income-tax-act-1961-first-schedule/sch_i_196143.pdf",
+      "chunking_version": "taxguard-chunks-v1",
+      "content_hash": "86c3575a49be2d8b77a571556a8ea43e67aae40e8a7f8e7d709d2c2bbe87de09",
+      "document_id": "india-code-it-act-1961-first-schedule:86c3575a49be2d8b77a571556a8ea43e",
+      "document_path": "corpus/india-code/income-tax-act-1961-first-schedule/document.json",
+      "max_chars": 1000,
+      "overlap_chars": 100,
+      "passage_count": 7,
+      "source_id": "india-code-it-act-1961-first-schedule",
+      "source_verification": "unverified"
+    },
+    {
+      "artifact_path": "corpus/india-code/income-tax-act-1961-second-schedule/sch_ii_196143.pdf",
+      "chunking_version": "taxguard-chunks-v1",
+      "content_hash": "f33737ee2a0335887dd32ea73e5f1eb7fca23d213c89ac69cc28d6bd5c18a482",
+      "document_id": "india-code-it-act-1961-second-schedule:f33737ee2a0335887dd32ea73e5f1eb7",
+      "document_path": "corpus/india-code/income-tax-act-1961-second-schedule/document.json",
+      "max_chars": 1000,
+      "overlap_chars": 100,
+      "passage_count": 84,
+      "source_id": "india-code-it-act-1961-second-schedule",
+      "source_verification": "unverified"
+    }
+  ],
+  "excluded": [],
+  "schema_version": 1,
+  "snapshot_id": "77fdc5329096755a58d09d6c5e78d52a55685021969e3dd019116f4bb37c4d31"
+}

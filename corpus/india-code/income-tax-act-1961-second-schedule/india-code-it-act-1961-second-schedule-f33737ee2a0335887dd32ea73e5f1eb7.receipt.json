@@ -1,0 +1,27 @@
+{
+  "acquired_at": "2026-10-09T10:28:34+00:00",
+  "artifact_id": "india-code-it-act-1961-second-schedule:f33737ee2a0335887dd32ea73e5f1eb7",
+  "artifact_url": "https://indiacode.gov.in/server/api/core/bitstreams/3e358de7-c01b-405b-a3ba-34f6408d98c4/content",
+  "content_type": "application/pdf;charset=UTF-8",
+  "document_id": "",
+  "filename": "sch_ii_196143.pdf",
+  "final_url": "https://indiacode.gov.in/server/api/core/bitstreams/3e358de7-c01b-405b-a3ba-34f6408d98c4/content",
+  "format": "pdf",
+  "http_status": 200,
+  "limitations": [
+    "PDF format: contents not ingested into a DocumentRecord at acquisition time",
+    "official authenticity not independently established",
+    "version identity and consolidated-through date unknown",
+    "fragment only: remainder of the Act not collected",
+    "legal applicability to any tax period not established"
+  ],
+  "parsed": false,
+  "publisher": "India Code (Ministry of Finance, Department of Revenue)",
+  "redirect_chain": [],
+  "sha256": "f33737ee2a0335887dd32ea73e5f1eb7fca23d213c89ac69cc28d6bd5c18a482",
+  "size_bytes": 498597,
+  "source_id": "india-code-it-act-1961-second-schedule",
+  "source_page_url": "https://indiacode.gov.in/entities/publication/ebfba9d1-97da-4f02-873b-d4dcd365b0e9",
+  "title": "THE SECOND SCHEDULE.",
+  "verification": "unverified"
+}

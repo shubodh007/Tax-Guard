@@ -1,0 +1,27 @@
+{
+  "acquired_at": "2026-10-09T08:33:11+00:00",
+  "artifact_id": "india-code-it-act-1961-first-schedule:86c3575a49be2d8b77a571556a8ea43e",
+  "artifact_url": "https://indiacode.gov.in/server/api/core/bitstreams/0c9617d8-abe3-4691-9a20-a5b1b595b860/content",
+  "content_type": "application/pdf;charset=UTF-8",
+  "document_id": "",
+  "filename": "sch_i_196143.pdf",
+  "final_url": "https://indiacode.gov.in/server/api/core/bitstreams/0c9617d8-abe3-4691-9a20-a5b1b595b860/content",
+  "format": "pdf",
+  "http_status": 200,
+  "limitations": [
+    "PDF format: contents not ingested into a DocumentRecord",
+    "official authenticity not independently established",
+    "version identity and consolidated-through date unknown",
+    "fragment only: remainder of the Act not collected",
+    "legal applicability to any tax period not established"
+  ],
+  "parsed": false,
+  "publisher": "India Code (Ministry of Finance, Department of Revenue)",
+  "redirect_chain": [],
+  "sha256": "86c3575a49be2d8b77a571556a8ea43e67aae40e8a7f8e7d709d2c2bbe87de09",
+  "size_bytes": 232490,
+  "source_id": "india-code-it-act-1961-first-schedule",
+  "source_page_url": "https://indiacode.gov.in/entities/publication/13868f5c-6f46-47ad-b176-3cdcfc1f94c5",
+  "title": "THE FIRST SCHEDULE",
+  "verification": "unverified"
+}

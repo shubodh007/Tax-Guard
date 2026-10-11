@@ -1,0 +1,19 @@
+# Render deployment for the TaxGuard backend (manual deploy; see README).
+# No secrets here. TAXGUARD_CORS_ORIGINS intentionally has no value in
+# this file: set the real https frontend origin in the Render dashboard
+# before exposing the service publicly. Until it is set, production
+# defaults to no CORS origins, so nothing is permitted by accident —
+# never localhost, never a wildcard, never a placeholder domain.
+services:
+  - type: web
+    name: taxguard-backend
+    runtime: python
+    buildCommand: "pip install -e . && python scripts/build_manifest.py"
+    startCommand: "uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.10
+      - key: TAXGUARD_ENVIRONMENT
+        value: production
+      - key: TAXGUARD_CORS_ORIGINS
+        sync: false

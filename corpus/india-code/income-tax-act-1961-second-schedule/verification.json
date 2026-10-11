@@ -1,0 +1,70 @@
+{
+  "assessment": {
+    "check_ids": [
+      "it-act-1961-sch2-integrity-2026-10-09",
+      "it-act-1961-sch2-origin-2026-10-09"
+    ],
+    "policy_id": "taxguard-source-policy",
+    "policy_version": "v1",
+    "reason_codes": [
+      "uncertain:origin",
+      "satisfied:integrity"
+    ],
+    "source_id": "india-code-it-act-1961-second-schedule",
+    "status": "incomplete",
+    "verdicts": [
+      {
+        "category": "origin",
+        "verdict": "uncertain"
+      },
+      {
+        "category": "integrity",
+        "verdict": "satisfied"
+      },
+      {
+        "category": "version",
+        "verdict": "not_required"
+      },
+      {
+        "category": "completeness",
+        "verdict": "not_required"
+      },
+      {
+        "category": "applicability",
+        "verdict": "not_required"
+      },
+      {
+        "category": "record_identity",
+        "verdict": "not_required"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check_id": "it-act-1961-sch2-integrity-2026-10-09",
+      "check_type": "integrity",
+      "checked_at": "",
+      "content_hash": "",
+      "description": "SHA-256 recomputed from stored artifact bytes and compared",
+      "limitations": "content identity only; not proof of official authenticity",
+      "observation": "SHA-256 f33737ee2a0335887dd32ea73e5f1eb7fca23d213c89ac69cc28d6bd5c18a482 over 498597 stored bytes matches the receipt",
+      "observation_source": "",
+      "outcome": "passed",
+      "source_id": "india-code-it-act-1961-second-schedule",
+      "verifier": ""
+    },
+    {
+      "check_id": "it-act-1961-sch2-origin-2026-10-09",
+      "check_type": "origin",
+      "checked_at": "",
+      "content_hash": "",
+      "description": "recorded the serving endpoint of the fetched artifact",
+      "limitations": "retrieval observes provenance; authenticity requires independent checks",
+      "observation": "retrieved over HTTPS from https://indiacode.gov.in/server/api/core/bitstreams/3e358de7-c01b-405b-a3ba-34f6408d98c4/content (HTTP 200); official status not independently established",
+      "observation_source": "",
+      "outcome": "inconclusive",
+      "source_id": "india-code-it-act-1961-second-schedule",
+      "verifier": ""
+    }
+  ]
+}
